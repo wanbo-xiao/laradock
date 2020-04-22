@@ -18,7 +18,7 @@ docker package for laraval
 6. Enter the container
    ```docker-compose exec --user=laradock workspace bash ```
 7. Create laraval app in the container
-   ``` composer create-project laravel/laravel my-laraval-app ```
+   ``` composer create-project laravel/laravel . ```
 8. edit .env of my-laraval-app
    ```  
       DB_HOST=mysql
